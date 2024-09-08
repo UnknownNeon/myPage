@@ -46,7 +46,9 @@ body{
 .nav-p2 > li > a:focus{
     color: white;
 }
-.nav-p2 > li > a:hover::after{
+
+.nav-p2 > li > a:hover::after,
+.nav-p2 > li > a:focus::after{
     opacity: 1;
 }
 
