@@ -9,12 +9,12 @@
 }
 
 #greet-text {
-    margin: 1rem;
-    font-size: 5rem;
+    margin : 8px;
+    font-size: 4rem;
 }
 .cursor{
     align-items: end;
-    font-size: 6rem;
+    font-size: 4rem;
     animation: blink 0.4s step-end infinite alternate;
 }
 
