@@ -1,4 +1,7 @@
-cursorText = document.getElementById("greet-text");
+let cursorText = document.getElementById("greet-text");
+
+const nav = document.querySelector('.navigation').offsetHeight;
+document.documentElement.style.setProperty('--scroll-pdn', nav + "px");
 
 const theText = "Hellow World!";
 initialText = "";
